@@ -9,36 +9,27 @@
 
 ---
 
-## Project Overview
-This repository contains the complete computational physics pipeline, data visualization scripts, and analytical plotting models developed for a comprehensive theoretical research report on the **Higgs Mechanism and Spontaneous Symmetry Breaking**.
-
-The project translates abstract Quantum Field Theory (QFT) principles and gauge invariant symmetry-breaking vector bosons into structured, reproducible mathematical models using Python.
-
----
-
-## Research Assets & Computational Models
-
 ### 1. Global vs. Local Gauge Symmetry Configurations
 The scripts map the physical behavior of continuous and broken field symmetry configuration layers under spatial translations and local gauge transformations.
 * **Source Code:** `fig1a_global_symmetry.py` & `fig1b_local_symmetry.py`
 * **Visual Output:**
   
-  ![Global Symmetry](images/fig1a_global_symmetry.png)
-  ![Local Symmetry](images/fig1b_local_symmetry.png)
+  ![Global Symmetry](fig1a_global_symmetry.png)
+  ![Local Symmetry](fig1b_local_symmetry.png)
 
 ### 2. Thermal Disordered States (Ferromagnetic Spin Analogy)
 Simulates spontaneous symmetry breaking as a temperature-dependent phase transition, tracking the change from high-temperature isotropic disorder to a low-temperature perfectly aligned configuration.
 * **Source Code:** `fig2_ferromagnet_spins.py`
 * **Visual Output:**
   
-  ![Ferromagnet Spins](images/fig2_ferromagnet_spins.png)
+  ![Ferromagnet Spins](fig2_ferromagnet_spins.png)
 
 ### 3. The Goldstone Theorem & Mexican Hat Potential
 Executes exact non-linear potential plotting to contrast a standard stable scalar field against a tachyonic mass parameter field, capturing the unstable local maximum and degenerate vacuum ground states.
 * **Source Code:** `fig3_higgs_potentials.py`
 * **Visual Output:**
   
-  ![Higgs Potentials](images/fig3_higgs_potentials.png)
+  ![Higgs Potentials](fig3_higgs_potentials.png)
 
 ---
 
